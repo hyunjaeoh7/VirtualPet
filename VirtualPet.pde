@@ -3,10 +3,6 @@ void setup(){
 }
 
 void draw(){
-  //mouse
-  System.out.println("x pos: " + mouseX);
-  System.out.println("y pos: " + mouseY);
-  
   //front feet
   fill(50,200,50);
   ellipse(240,240,30,50);
@@ -56,6 +52,4 @@ void draw(){
   //mouth
   noFill();
   arc(200,200,70,30,PI/6, PI * 5/6);
-  
-  
 }
