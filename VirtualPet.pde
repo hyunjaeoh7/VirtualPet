@@ -7,6 +7,14 @@ void draw(){
   System.out.println("x pos: " + mouseX);
   System.out.println("y pos: " + mouseY);
   
+  //front feet
+  fill(50,200,50);
+  ellipse(240,240,30,50);
+  ellipse(255,245,30,50);
+  //backfeet
+  ellipse(330,245,30,50);
+  ellipse(345,248,30,50);
+  
   //shell
   fill(130,50,0);
   ellipse(300,210,140,80);
@@ -33,10 +41,11 @@ void draw(){
   line(270,200,330,200);
   line(330,200,325,230);
   line(330,200,355,185);
-  line(270,200,285,180);
+  line(270,200,285,170);
+  line(330,200,315,170);
   
   //head
-  fill(0,255,0);
+  fill(30,230,30);
   ellipse(200,200,100,70);
   
   //eyes
